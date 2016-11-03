@@ -1,7 +1,6 @@
 //This is a CSS Resent
 @import 'reset';
 
-
 // These are my variables
 @import 'variable';
 
@@ -25,3 +24,7 @@
 
 // This is my footer
 @import 'footer';
+
+html {
+    font-size: 16px;
+    }

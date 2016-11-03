@@ -99,26 +99,34 @@ table {
 
 header {
   text-decoration: none;
-  font-family: ralewaymedium; }
+  font-family: "ralewaymedium"; }
 
-.featured {
-  text-align: center; }
-  .featured .h5 {
-    text-transform: uppercase; }
-    .featured .h5 .carousel_cell {
-      height: 60;
-      width: 25%; }
+.carousel_cell {
+  text-align: center;
+  height: 100;
+  width: 25%;
+  font: 1.5rem "playfair_display" serif;
+  color: #e2574c;
+  margin: 1rem; }
+  .carousel_cell h5 {
+    text-transform: uppercase;
+    color: #969696;
+    font: 0.75rem "ralewaymedium" sans-serif;
+    margin: 1rem; }
 
 .intro_section {
-  font-family: playfair_display_italic;
+  font-family: "playfair_display_italic";
   text-align: center;
   display: block;
   font-size: 1rem; }
   .intro_section.styles {
-    font-family: playfair_display_bold; }
+    font-family: "playfair_display_bold"; }
 
 footer {
   background-color: black;
   color: white;
   text-decoration: none;
-  font-family: playfair_display; }
+  font-family: "playfair_display"; }
+
+html {
+  font-size: 16px; }
