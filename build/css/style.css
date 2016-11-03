@@ -77,7 +77,7 @@ table {
   font-style: normal; }
 
 @font-face {
-  font-family: 'ralewaylight_italic';
+  font-family: 'ralewaylight_iatlic';
   src: url("assets/fonts/all_fonts/raleway-lightitalic-webfont.eot");
   src: url("assets/fonts/all_fonts/raleway-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/all_fonts/raleway-lightitalic-webfont.woff") format("woff"), url("assets/fonts/all_fonts/raleway-lightitalic-webfont.svg#ralewaylight_italic") format("svg");
   font-weight: normal;
@@ -96,3 +96,29 @@ table {
   src: url("assets/fonts/all_fonts/raleway-mediumitalic-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/all_fonts/raleway-mediumitalic-webfont.woff") format("woff"), url("assets/fonts/all_fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic") format("svg");
   font-weight: normal;
   font-style: italic; }
+
+header {
+  text-decoration: none;
+  font-family: ralewaymedium; }
+
+.featured {
+  text-align: center; }
+  .featured .h5 {
+    text-transform: uppercase; }
+    .featured .h5 .carousel_cell {
+      height: 60;
+      width: 25%; }
+
+.intro_section {
+  font-family: playfair_display_italic;
+  text-align: center;
+  display: block;
+  font-size: 1rem; }
+  .intro_section.styles {
+    font-family: playfair_display_bold; }
+
+footer {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-family: playfair_display; }

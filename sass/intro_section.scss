@@ -1,0 +1,9 @@
+.intro_section{
+    font-family: $pdi;
+    text-align: center;
+    display: block;
+    font-size: 1rem;
+    &.styles {
+        font-family: $pdb;
+    }
+}

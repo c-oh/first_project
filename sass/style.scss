@@ -1,4 +1,27 @@
 //This is a CSS Resent
-@import 'reset.scss';
+@import 'reset';
+
+
+// These are my variables
+@import 'variable';
+
 //These are my fonts
-@import 'fonts.scss';
+@import 'fonts';
+
+//This is my header
+@import 'header';
+
+// This is my about
+@import 'about';
+
+//This is my featured
+@import 'featured';
+
+//This is my intro section
+@import 'intro_section';
+
+//These are my categories
+@import 'categories';
+
+// This is my footer
+@import 'footer';

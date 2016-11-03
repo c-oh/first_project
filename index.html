@@ -4,8 +4,10 @@
 <head>
     <title>Aloha Apparel Co.</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="build/css/flickity.min.css" media="screen">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link rel="stylesheet" href="build/css/style.min.css">
+    <link rel="stylesheet" href="build/css/style.min.css" media="screen">
 </head>
 
 <body>
@@ -65,7 +67,7 @@
         <div class="featured_container">
             <span class="most_loved"> Most-Loved</span>
             <span class="products"> Products </span>
-            <div class="carousel">
+            <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true, "autoPlay": true}'>
                 <div class="carousel_cell">
                     <img src="assets/images/stretch-knit-dress.jpg" style="width: 240px" alt="stretch-knit-dress" />
                     <h5>dresses</h5>
@@ -172,7 +174,7 @@
         </ul>
     </footer>
     <script src="js/jquery-3.1.1.min.js "></script>
-    <script src="js/tota11y.min.js"></script>
+    <script src="js/flickity.pkgd.min.js"></script>
     <script src="build/js/main.min.js"></script>
 </body>
 </html>
