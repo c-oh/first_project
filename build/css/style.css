@@ -120,7 +120,21 @@ header {
   display: block;
   font-size: 1rem; }
   .intro_section.styles {
-    font-family: "playfair_display_bold"; }
+    font: 0.75rem "playfair_display_bold" serif; }
+
+.subscribe {
+  color: white;
+  text-align: center;
+  height: 350px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), url(../../assets/images/wave-bkgd.jpg) no-repeat center bottom; }
+  .subscribe .subscribe-text-container {
+    font-size: 1rem;
+    padding: 116px;
+    margin: 66px; }
+    .subscribe .subscribe-text-container .subscribe_text {
+      font: 1.125rem "ralewaylight" sans-serif;
+      display: block;
+      line-height: 36px; }
 
 footer {
   background-color: black;
