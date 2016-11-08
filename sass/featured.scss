@@ -1,24 +1,27 @@
-.featured_container{
+.featured {
     height: 500px;
     margin-top: 40px;
-     text-align: center;
-    .most_loved{
-
+    text-align: center;
+    .most_loved {
+        font: $part1_font $pdi serif;
+        color: $darkgrey;
+        line-height: $line_height;
     }
-    .products{
-
+    .products {
+        font: $part1_font $pdb serif;
+        color: $darkgrey;
+        line-height: $line_height;
     }
-.carousel_cell {
-    height: 100;
-    width: 100%;
-    font: 1.5rem $pd serif;
-    color: $orange;
-    margin: 1rem;
-      h5 {
-        text-transform: uppercase;
-        color: $grey;
-        font: 0.75rem $rm sans-serif;
+    .carousel_cell {
+        width: 100%;
+        font: 1.5rem $pd serif;
+        color: $orange;
         margin: 1rem;
+        h5 {
+            text-transform: uppercase;
+            color: $grey;
+            font: 0.75rem $rm sans-serif;
+            margin: 1rem;
+        }
     }
-}
 }
