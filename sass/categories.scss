@@ -1,0 +1,39 @@
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    text-align: center;
+    color: $white;
+    font: 1.375rem $rm sans-serif;
+    text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
+    .men_category {
+        background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../../assets/images/mens-category.jpg') no-repeat center center;
+        background-size: cover, cover;
+        width: 100%;
+        height: 200px;
+
+    }
+    .trends_category {
+        background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../../assets/images/trends-category.jpg') no-repeat center center;
+        background-size: cover, cover;
+        border-left:$border1;
+        border-right:$border1;
+        border-bottom:$border1;
+    }
+    .glasses_category {
+        background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../../assets/images/glasses-category.jpg') no-repeat center center;
+        background-size: cover, cover;
+    }
+    .sale_category {
+        background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../../assets/images/sale-category.jpg') no-repeat center center;
+        background-size: cover, cover;
+    }
+    .bags_category {
+        background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../../assets/images/bags-category.jpg') no-repeat center center;
+        background-size: cover, cover;
+    }
+    .womens_category {
+        background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../../assets/images/womens-category.jpg') no-repeat center center;
+        background-size: cover, cover;
+    }
+}
