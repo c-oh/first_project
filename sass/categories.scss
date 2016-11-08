@@ -19,8 +19,6 @@
     .trends_category {
         background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../../assets/images/trends-category.jpg') no-repeat center center;
         background-size: cover, cover;
-        border-top: $border1;
-        border-bottom: $border1;
         height: $height1;
         width: $width1;
     }
@@ -29,8 +27,6 @@
         background-size: cover, cover;
         height: $height1;
         width: $width1;
-        border-top: $border1;
-        border-bottom: $border1;
     }
     .sale_category {
         background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../../assets/images/sale-category.jpg') no-repeat center center;
@@ -38,19 +34,24 @@
         height: $height1;
         width: $width1;
         border-top: $border1;
-        border-bottom: $border1;
+
     }
     .bags_category {
         background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../../assets/images/bags-category.jpg') no-repeat center center;
         background-size: cover, cover;
         height: $height1;
         width: $width1;
+        border-top: $border1;
     }
     .womens_category {
         background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../../assets/images/womens-category.jpg') no-repeat center center;
         background-size: cover, cover;
         height: $height1;
         width: $width2;
+        border-top: $border1;
+    }
+    p{
+        margin-top: 76px;
     }
 }
 
