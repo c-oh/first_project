@@ -7,6 +7,16 @@
     padding-top: 76px;
     .subscribe-text-container {
         font-size: 1rem;
+        .signupfor {
+            font-family: $pdi;
+            font-size: $part1_font;
+            text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
+        }
+        .updates {
+            font-family: $pdb;
+            font-size: $part1_font;
+            text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
+        }
         .subscribe_text {
             font: 1rem $rl sans-serif;
             display: block;
@@ -14,4 +24,37 @@
             line-height: 32px;
         }
     }
+}
+
+form {
+    width: 61%;
+    height: 14px;
+    border: 6px solid $white;
+    border-radius: 30px;
+    margin-left: 15%;
+    margin-top: 8px;
+    background: $white;
+   .text_wrapper{ 
+       margin-top: -21px;
+    .input[type=text] {
+        border: $white;
+        box-shadow: none;
+        font-size: 1rem;
+        font-family: $rl sans-serif;
+        height: 100%;
+        width: 60%;
+        position: relative;
+        margin-right: 30%;
+        border: none;
+    }
+}
+button {
+        top: 0;
+        background: $orange;
+        font-size: 0.813rem;
+        border-radius: 20px;
+        border: solid $orange;
+        color: white;
+        font-family: $rm sans-serif;
+}
 }

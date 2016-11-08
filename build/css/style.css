@@ -247,11 +247,48 @@ table {
   padding-top: 76px; }
   .subscribe .subscribe-text-container {
     font-size: 1rem; }
+    .subscribe .subscribe-text-container .signupfor {
+      font-family: "playfair_display_italic";
+      font-size: 2.063rem;
+      text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8); }
+    .subscribe .subscribe-text-container .updates {
+      font-family: "playfair_display_bold";
+      font-size: 2.063rem;
+      text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8); }
     .subscribe .subscribe-text-container .subscribe_text {
       font: 1rem "ralewaylight" sans-serif;
       display: block;
       padding-top: 30px;
       line-height: 32px; }
+
+form {
+  width: 61%;
+  height: 14px;
+  border: 6px solid white;
+  border-radius: 30px;
+  margin-left: 15%;
+  margin-top: 8px;
+  background: white; }
+  form .text_wrapper {
+    margin-top: -21px; }
+    form .text_wrapper .input[type=text] {
+      border: white;
+      box-shadow: none;
+      font-size: 1rem;
+      font-family: "ralewaylight" sans-serif;
+      height: 100%;
+      width: 60%;
+      position: relative;
+      margin-right: 30%;
+      border: none; }
+  form button {
+    top: 0;
+    background: #e2574c;
+    font-size: 0.813rem;
+    border-radius: 20px;
+    border: solid #e2574c;
+    color: white;
+    font-family: "ralewaymedium" sans-serif; }
 
 footer {
   background-color: black;
