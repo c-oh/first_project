@@ -1,7 +1,39 @@
-footer{
-    background-color: $black;
+footer {
+    background-color: $darkgrey;
     color: $white;
     text-decoration: none;
-    font-family: $pd;
+    font: 0.775rem $pd serif;
     text-align: center;
+    padding-top: $margin_1;
+    padding-bottom: $margin_1;
+    .footer_container {
+        width: 100%;
+        .copyright {
+            margin-bottom: 1rem;
+        }
+        .contact {
+            margin-bottom: 1rem;
+            a{
+                color: $white;
+            }
+        }
+        .address {
+            margin-bottom: 1rem;
+            color: $grey;
+        }
+    }
+}
+
+.social { 
+color: $white;
+padding-top: 10px;
+ li{
+     display: inline-block;
+     letter-spacing: 1px;;
+    a{
+       line-height: 0;
+            font-size: 0;
+            color: transparent;     
+        }
+}
 }
