@@ -1,9 +1,26 @@
-header{
-    text-decoration: none;    
-     font-family:$rm;
-
-     
-    li{
-       
+.header_container {
+    font-family: $rm;
+    display: flex;
+    flex-wrap: wrap;
+    .navigation_menu {
+        text-decoration: none;
+        flex: 0 1 50%;
+        display: flex-row;
     }
+}
+
+.logo {
+    height: 42px;
+    padding-top: 26px;
+    display: flex;
+    align-self: flex-start;
+    flex: 0 1 50%;
+}
+
+.cart {
+    display: flex;
+    height: 100px;
+    width: 50px;
+    align-self: flex-end;
+    text-align: right;
 }

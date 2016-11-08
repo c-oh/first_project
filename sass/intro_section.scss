@@ -1,13 +1,20 @@
-.intro_section{
-    font-family: $pdi;
+.intro_section {
+    width: 100%;
     text-align: center;
     display: block;
-    font-size: 1rem;
-    &.styles {
-        font: 0.75rem $pdb serif;
+    padding-top: $margin_1;
+    padding-bottom: $margin_1;
+    .intro_section_container {
+        line-height: $line_height;
+        font-family: $rl;
+        font-size: 1rem;
+        .hand_crafted {
+            font-family: $pdi;
+            font-size: $part1_font;
+        }
+        .styles {
+            font-family: $pdb;
+            font-size: $part1_font;
+        }
     }
 }
-
-
-
-

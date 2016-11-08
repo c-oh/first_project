@@ -1,0 +1,19 @@
+.banner {
+    height: 300px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../../assets/images/banner-girl.png') no-repeat center center, url('../../assets/images/flower-bkgd.jpg');
+    position: relative;
+    background-position-y: 0px, 18px, 0px;
+    background-size: contain, contain, cover;
+    color: $white;
+    text-align: center;
+    .banner_text_container {
+        padding: 65px;
+    }
+    .collection {
+        font: 1.125rem $rl sans-serif;
+        line-height: 4;
+    }
+    .season{
+        font: 2.188rem $pd serif;
+    }
+}
