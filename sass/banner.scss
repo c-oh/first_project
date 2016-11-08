@@ -6,12 +6,13 @@
     background-size: contain, contain, cover;
     color: $white;
     text-align: center;
+    text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
     .banner_text_container {
         padding: 65px;
     }
     .collection {
-        font: 1.125rem $rl sans-serif;
-        line-height: 4;
+        font: 1.125rem $rm sans-serif;
+        line-height: 3;
     }
     .season{
         font: 2.188rem $pd serif;

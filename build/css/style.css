@@ -87,7 +87,7 @@ table {
   font-family: 'ralewaymedium';
   src: url("../../assets/fonts/all_fonts/raleway-medium-webfont.eot");
   src: url("../../assets/fonts/all_fonts/raleway-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/all_fonts/raleway-medium-webfont.woff") format("woff"), url("../../assets/fonts/all_fonts/raleway-medium-webfont.svg#ralewaymedium") format("svg");
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal; }
 
 @font-face {
@@ -135,12 +135,13 @@ table {
   background-position-y: 0px, 18px, 0px;
   background-size: contain, contain, cover;
   color: white;
-  text-align: center; }
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8); }
   .banner .banner_text_container {
     padding: 65px; }
   .banner .collection {
-    font: 1.125rem "ralewaylight" sans-serif;
-    line-height: 4; }
+    font: 1.125rem "ralewaymedium" sans-serif;
+    line-height: 3; }
   .banner .season {
     font: 2.188rem "playfair_display" serif; }
 
@@ -161,8 +162,8 @@ table {
   width: 100%;
   text-align: center;
   display: block;
-  padding-top: 4rem;
-  padding-bottom: 4rem; }
+  padding-top: 30px;
+  color: #2d2d2d; }
   .intro_section .intro_section_container {
     line-height: 2rem;
     font-family: "ralewaylight";
