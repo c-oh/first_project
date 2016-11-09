@@ -104,14 +104,25 @@ table {
       flex-wrap: wrap;
   -ms-flex-direction: row;
       flex-direction: row; }
-  .header_container .navigation_menu {
+  .header_container ul.navmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
     display: inline-block; }
-    .header_container .navigation_menu ul {
-      background-color: white; }
-      .header_container .navigation_menu ul a {
-        text-decoration: none;
-        color: #e2574c;
-        font-family: "ralewaymedium"; }
+    .header_container ul.navmenu a {
+      color: #e2574c;
+      font: 1rem "ralewaylight" sans-serif;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: 0.3s;
+      font-size: 17px; }
+      .header_container ul.navmenu a:hover {
+        color: #2d2d2d; }
+    .header_container ul.navmenu .icon {
+      display: none; }
 
 .logo {
   height: 42px;

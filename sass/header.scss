@@ -2,15 +2,27 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    .navigation_menu {
+    ul.navmenu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: $white;
         display: inline-block;
-        ul {
-            background-color: $white;
-            a {
-                text-decoration: none;
-                color: $orange;
-                font-family: $rm;
+        a {
+            color: $orange;
+            font: 1rem $rl sans-serif;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: 0.3s;
+            font-size: 17px;
+            &:hover {
+                color: $darkgrey;
             }
+        }
+        .icon {
+            display: none;
         }
     }
 }
@@ -27,3 +39,4 @@
     align-self: flex-end;
     text-align: right;
 }
+
