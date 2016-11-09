@@ -1,18 +1,22 @@
 .header_container {
-    font-family: $rm;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     .navigation_menu {
-        text-decoration: none;
-        flex: 0 1 50%;
-        display: flex-row;
+        display: inline-block;
+        ul {
+            background-color: $white;
+            a {
+                text-decoration: none;
+                color: $orange;
+                font-family: $rm;
+            }
+        }
     }
 }
 
 .logo {
     height: 42px;
-    padding-top: 26px;
-    display: flex;
     align-self: flex-start;
     flex: 0 1 50%;
 }
@@ -20,7 +24,6 @@
 .cart {
     display: flex;
     height: 100px;
-    width: 50px;
     align-self: flex-end;
     text-align: right;
 }

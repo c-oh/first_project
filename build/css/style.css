@@ -98,22 +98,23 @@ table {
   font-style: italic; }
 
 .header_container {
-  font-family: "ralewaymedium";
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+  -ms-flex-direction: row;
+      flex-direction: row; }
   .header_container .navigation_menu {
-    text-decoration: none;
-    -ms-flex: 0 1 50%;
-        flex: 0 1 50%;
-    display: flex-row; }
+    display: inline-block; }
+    .header_container .navigation_menu ul {
+      background-color: white; }
+      .header_container .navigation_menu ul a {
+        text-decoration: none;
+        color: #e2574c;
+        font-family: "ralewaymedium"; }
 
 .logo {
   height: 42px;
-  padding-top: 26px;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-item-align: start;
       align-self: flex-start;
   -ms-flex: 0 1 50%;
@@ -123,7 +124,6 @@ table {
   display: -ms-flexbox;
   display: flex;
   height: 100px;
-  width: 50px;
   -ms-flex-item-align: end;
       align-self: flex-end;
   text-align: right; }
