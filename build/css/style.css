@@ -101,43 +101,36 @@ table {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-direction: row;
-      flex-direction: row; }
-  .header_container ul.navmenu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    display: inline-block; }
-    .header_container ul.navmenu a {
-      color: #e2574c;
-      font: 1rem "ralewaylight" sans-serif;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      transition: 0.3s;
-      font-size: 17px; }
-      .header_container ul.navmenu a:hover {
-        color: #2d2d2d; }
-    .header_container ul.navmenu .icon {
-      display: none; }
+      flex-wrap: wrap; }
+  .header_container .logo_and_cart {
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-flow: row;
+        flex-flow: row;
+    width: 100%;
+    border-bottom: 1px #969696;
+    border-style: solid; }
 
-.logo {
-  height: 42px;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  -ms-flex: 0 1 50%;
-      flex: 0 1 50%; }
-
-.cart {
+ul.navmenu {
+  list-style-type: none;
+  padding: 10px;
+  overflow: hidden;
+  background-color: white;
+  width: 100%;
   display: -ms-flexbox;
-  display: flex;
-  height: 100px;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  text-align: right; }
+  display: flex; }
+  ul.navmenu a {
+    color: #e2574c;
+    font: 1rem "ralewaylight" sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px; }
+    ul.navmenu a:hover {
+      color: #2d2d2d; }
+  ul.navmenu .icon {
+    display: none; }
 
 .banner {
   height: 300px;
@@ -281,18 +274,16 @@ form {
   margin-left: 15%;
   margin-top: 8px;
   background: white; }
-  form .text_wrapper {
-    margin-top: -21px; }
-    form .text_wrapper .input[type=text] {
-      border: white;
-      box-shadow: none;
-      font-size: 1rem;
-      font-family: "ralewaylight" sans-serif;
-      height: 100%;
-      width: 60%;
-      position: relative;
-      margin-right: 30%;
-      border: none; }
+  form .input[type=text] {
+    border: white;
+    box-shadow: none;
+    font-size: 1rem;
+    font-family: "ralewaylight" sans-serif;
+    height: 100%;
+    width: 60%;
+    position: relative;
+    margin-right: 30%;
+    border: none; }
   form button {
     top: 0;
     background: #e2574c;
@@ -301,6 +292,8 @@ form {
     border: solid #e2574c;
     color: white;
     font-family: "ralewaymedium" sans-serif; }
+  form .text_wrapper {
+    margin-top: -22px; }
 
 footer {
   background-color: #2d2d2d;

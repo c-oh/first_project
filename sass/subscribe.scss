@@ -35,8 +35,6 @@ form {
     margin-left: 15%;
     margin-top: 8px;
     background: $white;
-   .text_wrapper{ 
-       margin-top: -21px;
     .input[type=text] {
         border: $white;
         box-shadow: none;
@@ -48,7 +46,7 @@ form {
         margin-right: 30%;
         border: none;
     }
-}
+
 button {
         top: 0;
         background: $orange;
@@ -57,5 +55,9 @@ button {
         border: solid $orange;
         color: white;
         font-family: $rm sans-serif;
+}
+
+.text_wrapper{ 
+       margin-top: -22px;
 }
 }
