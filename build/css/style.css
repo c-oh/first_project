@@ -110,6 +110,12 @@ table {
     width: 100%;
     border-bottom: 1px #969696;
     border-style: solid; }
+    .header_container .logo_and_cart img.logo {
+      max-width: 160px;
+      height: auto; }
+    .header_container .logo_and_cart img.cart {
+      max-width: 65px;
+      height: auto; }
 
 ul.navmenu {
   list-style-type: none;
