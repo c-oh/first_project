@@ -1,5 +1,4 @@
 .featured {
-    
     height: 500px;
     margin-top: 40px;
     text-align: center;
@@ -14,6 +13,9 @@
         font: 1.5rem $pd serif;
         color: $orange;
         margin: 1rem;
+        @media screen and (-width: $tablet) {
+            width: 50%;
+        }
         h5 {
             text-transform: uppercase;
             color: $grey;
@@ -21,12 +23,11 @@
             font-weight: bold;
             margin: 1rem;
         }
+    
     }
-}
-
-@media screen and (-width: $tablet){
-    .carousel_cell {
-        width: 25%;
+    .flickity-slider{
+        @media screen and (-width: $tablet) {
+            width: 50%;
+        }
     }
-
 }

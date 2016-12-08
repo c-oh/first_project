@@ -187,16 +187,18 @@ header {
     font: 1.5rem "playfair_display" serif;
     color: #e2574c;
     margin: 1rem; }
+    @media screen and (-width: 600px) {
+      .featured .carousel_cell {
+        width: 50%; } }
     .featured .carousel_cell h5 {
       text-transform: uppercase;
       color: #969696;
       font: 0.75rem "ralewaymedium" sans-serif;
       font-weight: bold;
       margin: 1rem; }
-
-@media screen and (-width: 600px) {
-  .carousel_cell {
-    width: 25%; } }
+  @media screen and (-width: 600px) {
+    .featured .flickity-slider {
+      width: 50%; } }
 
 .intro_section {
   width: 100%;
