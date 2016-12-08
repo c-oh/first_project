@@ -8,14 +8,16 @@
     .intro_section_container {
         line-height: $line_height;
         font-family: $rl;
-        font-size: 1rem;
+        font-size: 0.9rem;
         .hand_crafted {
-            font-family: $pdi;
-            font-size: $part1_font;
+            @include font-styling-first();
         }
         .styles {
-            font-family: $pdb;
-            font-size: $part1_font;
+            @include font-styling-second();
         }
+    }
+    p {
+        width: 92%;
+        margin-left: 8px;
     }
 }

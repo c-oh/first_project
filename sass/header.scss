@@ -1,47 +1,56 @@
-.header_container {
+header {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    .logo_and_cart {
-        justify-content: space-between;
+    overflow:hidden;
+    @media (min-width: $tablet) {
         flex-flow: row;
-        width: 100%;
-        border-bottom: 1px $grey;
-        border-style: solid;
-        img.logo {
-            max-width: 160px;
-            height: auto;
-        }
-        img.cart {
-                max-width: 65px;
-                height: auto;
-            }
+    }
+    .logo img {
+        max-width: 120px;
+        height: auto;
+        @media (min-width: $tablet) {
+            -webkit-order: 1;
         }
     }
-
-
-ul.navmenu {
-    list-style-type: none;
-    padding: 10px;
-    overflow: hidden;
-    background-color: $white;
-    width: 100%;
-    display: flex;
-    a {
-        color: $orange;
-        font: 1rem $rl sans-serif;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        transition: 0.3s;
-        font-size: 17px;
-        &:hover {
-            color: $darkgrey;
+    .cart
+    {
+        @media (min-width: $tablet) {
+            -webkit-order: 3;
         }
-    }
-    .icon {
-        display: none;
+    } img {
+        max-width: 46px;
+        height: auto;
     }
 }
 
-//align-self: flex-start;
-//flex: 0 1 50%;
+.navigation_menu {
+    @media (min-width: $tablet) {
+        -webkit-order: 2;
+    }
+    width:100%;
+    ul.navmenu {
+        list-style-type: none;
+        padding: 10px;
+        overflow: hidden;
+        display: flex;
+            width: 100%;
+    justify-content: space-between;
+        border-top: 0.2px solid $grey;
+        @media (min-width: $tablet) {
+            border-top: none;
+        }
+        a {
+            color: $orange;
+            font: 1rem $rl sans-serif;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: 0.3s;
+            font-size: 17px;
+            &:hover {
+                color: $darkgrey;
+            }
+        }
+    }
+}

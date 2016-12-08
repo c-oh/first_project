@@ -1,63 +1,96 @@
 .subscribe {
     color: $white;
-    height: 300px;
+    height: 254px;
     text-align: center;
     background: linear-gradient( to bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), url(../../assets/images/wave-bkgd.jpg) no-repeat center bottom;
     transform: matrix(1, 0, 0, 1, 0, 0);
-    padding-top: 76px;
+    background-position: -547px -543px;
+    padding-top: 48px;
     margin-bottom: 6px;
     .subscribe-text-container {
         font-size: 1rem;
         .signupfor {
-            font-family: $pdi;
-            font-size: $part1_font;
             text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
+            @include font-styling-first();
+            color: white;
         }
         .updates {
-            font-family: $pdb;
-            font-size: $part1_font;
             text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
+            @include font-styling-second();
+            color: white;
         }
         .subscribe_text {
             font: 1rem $rl sans-serif;
             display: block;
-            padding-top: 30px;
+            padding-top: 27px;
             line-height: 32px;
         }
     }
 }
 
 form {
-    width: 61%;
-    height: 14px;
-    border: 6px solid $white;
+    margin-left: 5%;
+        width: 83%;
+    border: 6px solid #fff;
     border-radius: 30px;
-    margin-left: 15%;
-    margin-top: 8px;
-    background: $white;
-    .input[type=text] {
-        border: $white;
-        box-shadow: none;
-        font-size: 1rem;
-        font-family: $rl sans-serif;
+    margin-top: 13px;
+    background: #fff;
+    #text_wrapper {
+        width: 100%;
+        border-radius: 30px;
+        margin-top: -17px;
+        input[type=text] {
+            border: $white;
+            box-shadow: none;
+            font-size: 1rem;
+            font-family: $rl sans-serif;
+            height: 100%;
+                width: 206px;
+            position: relative;
+            #email_field {
+                border: none;
+            }
+        }
+        button {
+            top: 0;
+            background: $orange;
+            font-size: 0.813rem;
+            border-radius: 20px;
+            border: solid $orange;
+            color: white;
+            font-family: $rm sans-serif;
+        }
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .subscribe {
+        width: 100%;
+        height: 341px;
+        background-position-x: -75px;
+        background-position-y: -538px;
+    }
+    .subscribe-text-container {
+        position: absolute;
+        text-align: center;
+        transform: translate(0, 29%);
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    /* Email Input */
+    input[type=text] {
         height: 100%;
         width: 60%;
         position: relative;
         margin-right: 30%;
         border: none;
+        padding-right: 23px;
     }
-
-button {
+    button {
+        position: absolute;
         top: 0;
-        background: $orange;
-        font-size: 0.813rem;
-        border-radius: 20px;
-        border: solid $orange;
-        color: white;
-        font-family: $rm sans-serif;
-}
-
-.text_wrapper{ 
-       margin-top: -22px;
-}
+        right: 0;
+        width: 38%;
+        font-size: 1rem;
+    }
 }

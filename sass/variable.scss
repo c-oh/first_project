@@ -1,34 +1,48 @@
-//colours
-$white : white;
-$black : black;
+    //colours
+$white: white;
+$black: black;
 $grey: #969696;
 $orange: #e2574c;
-$darkgrey: #2d2d2d;
-
+$darkgrey: #242424;
 //fonts
-$pdb : 'playfair_display_bold';
+$pdb: 'playfair_display_bold';
 $pdbi: 'playfair_display_bolditalic';
 $pdi: 'playfair_display_italic';
 $pd: 'playfair_display';
-$rl : 'ralewaylight';
-$rli : 'ralewaylight_iatlic';
-$rm : 'ralewaymedium';
-$rmi : 'ralewaymedium_italic';
-
+$rl: 'ralewaylight';
+$rli: 'ralewaylight_iatlic';
+$rm: 'ralewaymedium';
+$rmi: 'ralewaymedium_italic';
 //font size
 $part1_font: 2.063rem;
-
 //line heights:
 $line_height: 2rem;
-
 //margins
 $margin_1: 4rem;
-
 //borders
-$border1: 4px solid white;
-
+$border1: 8px solid white;
 //photo sizes
 $height1: 25%;
-$width1: 50%;
+$width1: 49%;
 $width2: 100%;
+$width3: 48%;
+
+//breakpoint
+$tablet: 600px;
+$desktop: 1240px;
+
+//mixins
+@mixin font-styling-first() {
+    font: $part1_font $pdi serif;
+    font-style: italic;
+    color: $darkgrey;
+    line-height: $line_height;
+    margin-right: 2px;
+}
+
+@mixin font-styling-second() {
+    font: $part1_font $pdb serif;
+    font-weight: bold;
+    color: $darkgrey;
+    line-height: $line_height;}
 
