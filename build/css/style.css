@@ -196,9 +196,10 @@ header {
       font: 0.75rem "ralewaymedium" sans-serif;
       font-weight: bold;
       margin: 1rem; }
-  @media screen and (-width: 600px) {
-    .featured .flickity-slider {
-      width: 50%; } }
+
+@media screen and (-width: 600px) {
+  .flickity-slider {
+    width: 50%; } }
 
 .intro_section {
   width: 100%;
@@ -296,7 +297,7 @@ header {
     border-top: 8px solid white; }
     @media (min-width: 600px) {
       .categories .categories_container .womens_category {
-        width: 49%;
+        width: 48%;
         border-left: 8px solid white; } }
   .categories .categories_container p {
     margin-top: 76px; }
