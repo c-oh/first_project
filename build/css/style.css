@@ -123,17 +123,16 @@ header {
     height: auto; }
 
 .navigation_menu {
-  width: 100%; }
+  width: 100%;
+  margin: auto;
+  width: 53%; }
   @media (min-width: 600px) {
     .navigation_menu {
       -webkit-order: 2; } }
   .navigation_menu ul.navmenu {
     list-style-type: none;
-    padding: 10px;
-    overflow: hidden;
     display: -ms-flexbox;
     display: flex;
-    width: 100%;
     -ms-flex-pack: justify;
         justify-content: space-between;
     border-top: 0.2px solid #969696; }

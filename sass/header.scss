@@ -29,12 +29,11 @@ header {
         -webkit-order: 2;
     }
     width:100%;
+    margin:auto;
+    width: 53%;
     ul.navmenu {
         list-style-type: none;
-        padding: 10px;
-        overflow: hidden;
         display: flex;
-            width: 100%;
     justify-content: space-between;
         border-top: 0.2px solid $grey;
         @media (min-width: $tablet) {
