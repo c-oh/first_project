@@ -27,10 +27,10 @@ header {
 .navigation_menu {
     @media (min-width: $tablet) {
         -webkit-order: 2;
+        margin:auto;
+            width: 53%;
     }
     width:100%;
-    margin:auto;
-    width: 53%;
     ul.navmenu {
         list-style-type: none;
         display: flex;
