@@ -6,8 +6,17 @@ footer {
     text-align: center;
     padding-top: $margin_1;
     padding-bottom: $margin_1;
+    @media (min-width: $tablet) {
+                display:flex;
+                text-align: left;
+                font-size: 0.95rem;
+            }
     .footer_container {
         width: 100%;
+         @media (min-width: $tablet) {
+                margin:auto;
+                width: 70%;
+            }
         .copyright {
             margin-bottom: 1rem;
         }
@@ -37,40 +46,17 @@ footer {
             color: transparent;
         }
     }
-}
-
-@media screen and (min-width: $tablet) {
-    footer {
+    @media (min-width: $tablet) {
         display: flex;
-        .about {
-            margin-left: 6%;
-            font-size: 1rem;
-            line-height: 1.25;
-            font-family: $pd, sans-serif;
-            text-align: left;
-            width: 100%;
- 
-        }
-        /* Social Media stuff */
-        .social {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-            margin-right: 6%;
-            font-size: 16px;
-            .social li:hover a,
+        flex-direction:column;
+        align-content:right;
+        .social li:hover a,
             .social li:hover i {
                 text-decoration: none;
                 color: red;
-                .fa {
-                    margin-right: 10px;
                 }
-            }
-        }
-    }
-    @media screen and (min-width: $desktop) {
-        .links {
-            padding-right: 4rem;
-        }
-    }
 }
+}
+
+
+  
