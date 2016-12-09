@@ -222,7 +222,7 @@ header {
       line-height: 2rem; }
   .intro_section p {
     width: 92%;
-    margin-left: 8px; }
+    margin: auto; }
 
 .categories .categories_container {
   display: -ms-flexbox;
@@ -330,14 +330,23 @@ header {
       display: block;
       padding-top: 27px;
       line-height: 32px; }
+      @media screen and (min-width: 600px) {
+        .subscribe .subscribe-text-container .subscribe_text {
+          padding: 27px 0px; } }
 
 form {
-  margin-left: 5%;
-  width: 83%;
+  margin: auto;
+  width: 291px;
   border: 6px solid #fff;
   border-radius: 30px;
   margin-top: 13px;
   background: #fff; }
+  @media screen and (min-width: 600px) {
+    form {
+      margin: auto;
+      width: 352px;
+      padding-left: 9px;
+      padding-top: 1px; } }
   form #text_wrapper {
     width: 100%;
     border-radius: 30px;
@@ -350,6 +359,9 @@ form {
       height: 100%;
       width: 206px;
       position: relative; }
+      @media screen and (min-width: 600px) {
+        form #text_wrapper input[type=text] {
+          width: 267px; } }
       form #text_wrapper input[type=text] #email_field {
         border: none; }
     form #text_wrapper button {

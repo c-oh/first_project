@@ -24,17 +24,26 @@
             display: block;
             padding-top: 27px;
             line-height: 32px;
+            @media screen and (min-width: $tablet) {
+                padding: 27px 0px;
+            }
         }
     }
 }
 
 form {
-    margin-left: 5%;
-        width: 83%;
+   margin:auto;
+  width: 291px;
     border: 6px solid #fff;
     border-radius: 30px;
     margin-top: 13px;
     background: #fff;
+    @media screen and (min-width: $tablet) {
+        margin: auto;
+        width: 352px;
+        padding-left: 9px;
+        padding-top: 1px;
+    }
     #text_wrapper {
         width: 100%;
         border-radius: 30px;
@@ -45,8 +54,11 @@ form {
             font-size: 1rem;
             font-family: $rl sans-serif;
             height: 100%;
-                width: 206px;
+            width: 206px;
             position: relative;
+            @media screen and (min-width: $tablet) {
+                width: 267px;
+            }
             #email_field {
                 border: none;
             }
