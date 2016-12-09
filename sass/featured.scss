@@ -8,17 +8,15 @@
     .products {
         @include font-styling-second();
     }
-    .flickity-slider{
-        @media screen and (-width: $tablet) {
-            width: 50%;
-        }
+}
+
     
     .carousel_cell {
         width: 100%;
         font: 1.5rem $pd serif;
         color: $orange;
         margin: 1rem;
-        @media screen and (-width: $tablet) {
+        @media (min-width: $tablet) {
             width: 50%;
         }
         h5 {
@@ -30,5 +28,5 @@
         }
     
     }
-    }
-}
+
+

@@ -182,23 +182,21 @@ header {
     font-weight: bold;
     color: #242424;
     line-height: 2rem; }
-  @media screen and (-width: 600px) {
-    .featured .flickity-slider {
+
+.carousel_cell {
+  width: 100%;
+  font: 1.5rem "playfair_display" serif;
+  color: #e2574c;
+  margin: 1rem; }
+  @media (min-width: 600px) {
+    .carousel_cell {
       width: 50%; } }
-  .featured .flickity-slider .carousel_cell {
-    width: 100%;
-    font: 1.5rem "playfair_display" serif;
-    color: #e2574c;
+  .carousel_cell h5 {
+    text-transform: uppercase;
+    color: #969696;
+    font: 0.75rem "ralewaymedium" sans-serif;
+    font-weight: bold;
     margin: 1rem; }
-    @media screen and (-width: 600px) {
-      .featured .flickity-slider .carousel_cell {
-        width: 50%; } }
-    .featured .flickity-slider .carousel_cell h5 {
-      text-transform: uppercase;
-      color: #969696;
-      font: 0.75rem "ralewaymedium" sans-serif;
-      font-weight: bold;
-      margin: 1rem; }
 
 .intro_section {
   width: 100%;
