@@ -23,13 +23,14 @@ $margin_1: 4rem;
 $border1: 8px solid white;
 //photo sizes
 $height1: 172px;
+$height2:214px;
 $width1: 49%;
 $width2: 100%;
 $width3: 48%;
 
 //breakpoint
 $tablet: 600px;
-$desktop: 1240px;
+$desktop: 1000px;
 
 //mixins
 @mixin font-styling-first() {
