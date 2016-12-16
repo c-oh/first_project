@@ -6,6 +6,9 @@
     transform: matrix(1, 0, 0, 1, 0, 0);
     padding-top: 48px;
     margin-bottom: 6px;
+    @media screen and (min-width: $desktop) {
+               height: 280px;
+            }
     .subscribe-text-container {
         font-size: 1rem;
         .signupfor {

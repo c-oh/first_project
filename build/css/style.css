@@ -182,6 +182,10 @@ header {
     font-weight: bold;
     color: #242424;
     line-height: 2rem; }
+  @media (min-width: 1000px) {
+    .featured .featured_container {
+      width: 90%;
+      margin: auto; } }
 
 .carousel_cell {
   width: 100%;
@@ -191,7 +195,7 @@ header {
   @media (min-width: 600px) {
     .carousel_cell {
       width: 50%; } }
-  @media (min-width: 600px) {
+  @media (min-width: 1000px) {
     .carousel_cell {
       width: 25%; } }
   .carousel_cell h5 {
@@ -227,7 +231,7 @@ header {
     width: 92%;
     margin: auto; }
 
-.categories .categories_container {
+.categories_container {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -237,87 +241,81 @@ header {
   color: white;
   font: 1.375rem "ralewaymedium" sans-serif;
   text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
-  height: 100%; }
-  .categories .categories_container .men_category {
+  height: 100%;
+  border: 4px solid white;
+  height: 126vh; }
+  .categories_container .men_category {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url("../../assets/images/mens-category.jpg") no-repeat center center;
     background-size: cover, cover;
-    width: 100%;
-    height: 172px;
-    border-top: 8px solid white;
-    border-bottom: 8px solid white;
-    height: 172px; }
-    @media (min-width: 600px) {
-      .categories .categories_container .men_category {
-        width: 50%;
-        border-top: none;
-        border-right: 8px solid white;
-        border-bottom: 0; } }
+    border-right: 4px solid white; }
+    @media (min-width: (600px, 1000px)) {
+      .categories_container .men_category {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
+        max-width: 100%; } }
     @media (min-width: 1000px) {
-      .categories .categories_container .men_category {
-        height: 214px; } }
-  .categories .categories_container .trends_category {
+      .categories_container .men_category {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
+        max-width: 100%; } }
+  .categories_container .trends_category {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url("../../assets/images/trends-category.jpg") no-repeat center center;
     background-size: cover, cover;
-    height: 172px;
-    width: 49%;
-    border-right: 8px solid white; }
+    border-left: 4px solid white; }
     @media (min-width: 600px) {
-      .categories .categories_container .trends_category {
-        width: 23%; } }
+      .categories_container .trends_category {
+        -ms-flex-preferred-size: 25%;
+            flex-basis: 25%; } }
     @media (min-width: 1000px) {
-      .categories .categories_container .trends_category {
-        height: 214px; } }
-  .categories .categories_container .glasses_category {
+      .categories_container .trends_category {
+        -ms-flex-preferred-size: 25%;
+            flex-basis: 25%; } }
+  .categories_container .glasses_category {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url("../../assets/images/glasses-category.jpg") no-repeat center center;
-    background-size: cover, cover;
-    height: 172px;
-    width: 48%; }
+    background-size: cover, cover; }
     @media (min-width: 600px) {
-      .categories .categories_container .glasses_category {
-        width: 24%; } }
+      .categories_container .glasses_category {
+        -ms-flex-preferred-size: 25%;
+            flex-basis: 25%; } }
     @media (min-width: 1000px) {
-      .categories .categories_container .glasses_category {
-        height: 214px; } }
-  .categories .categories_container .sale_category {
+      .categories_container .glasses_category {
+        -ms-flex-preferred-size: 25%;
+            flex-basis: 25%;
+        border-right: 0; } }
+  .categories_container .sale_category {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url("../../assets/images/sale-category.jpg") no-repeat center center;
-    background-size: cover, cover;
-    height: 172px;
-    width: 49%;
-    border-top: 8px solid white;
-    border-right: 8px solid white; }
+    background-size: cover, cover; }
     @media (min-width: 600px) {
-      .categories .categories_container .sale_category {
-        width: 25%;
-        border-right: 8px solid white; } }
+      .categories_container .sale_category {
+        -ms-flex-preferred-size: 25%;
+            flex-basis: 25%; } }
     @media (min-width: 1000px) {
-      .categories .categories_container .sale_category {
-        height: 214px; } }
-  .categories .categories_container .bags_category {
+      .categories_container .sale_category {
+        -ms-flex-preferred-size: 25%;
+            flex-basis: 25%;
+        border-left: 0; } }
+  .categories_container .bags_category {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url("../../assets/images/bags-category.jpg") no-repeat center center;
-    background-size: cover, cover;
-    height: 172px;
-    width: 48%;
-    border-top: 8px solid white; }
+    background-size: cover, cover; }
     @media (min-width: 600px) {
-      .categories .categories_container .bags_category {
-        width: 24%; } }
+      .categories_container .bags_category {
+        -ms-flex-preferred-size: 25%;
+            flex-basis: 25%; } }
     @media (min-width: 1000px) {
-      .categories .categories_container .bags_category {
-        height: 214px; } }
-  .categories .categories_container .womens_category {
+      .categories_container .bags_category {
+        -ms-flex-preferred-size: 25%;
+            flex-basis: 25%;
+        border-left: 4px solid white;
+        border-right: 4px solid white; } }
+  .categories_container .womens_category {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url("../../assets/images/womens-category.jpg") no-repeat center center;
-    background-size: cover, cover;
-    height: 172px;
-    width: 100%;
-    border-top: 8px solid white; }
-    @media (min-width: 600px) {
-      .categories .categories_container .womens_category {
-        width: 48%;
-        border-left: 8px solid white; } }
+    background-size: cover, cover; }
     @media (min-width: 1000px) {
-      .categories .categories_container .womens_category {
-        height: 214px; } }
-  .categories .categories_container p {
+      .categories_container .womens_category {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
+        border-right: 0; } }
+  .categories_container p {
     margin-top: 76px; }
 
 .subscribe {
@@ -328,6 +326,9 @@ header {
   transform: matrix(1, 0, 0, 1, 0, 0);
   padding-top: 48px;
   margin-bottom: 6px; }
+  @media screen and (min-width: 1000px) {
+    .subscribe {
+      height: 280px; } }
   .subscribe .subscribe-text-container {
     font-size: 1rem; }
     .subscribe .subscribe-text-container .signupfor {

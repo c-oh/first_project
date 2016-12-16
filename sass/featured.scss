@@ -8,6 +8,13 @@
     .products {
         @include font-styling-second();
     }
+    .featured_container{
+    @media (min-width: $desktop) {
+           width: 90%;
+    margin: auto;
+        }
+}
+
 }
 
     
@@ -19,7 +26,7 @@
         @media (min-width: $tablet) {
             width: 50%;
         }
-        @media (min-width: $tablet) {
+        @media (min-width: $desktop) {
             width: 25%;
         }
         h5 {
